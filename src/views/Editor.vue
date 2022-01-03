@@ -1,14 +1,5 @@
 <template>
-  <div class="editor"
-       id="editor-layout-main">
-    <a-layout :style="{ background: '#fff' }">
-      <a-layout-header class="header">
-        <div class="page-title"
-             :style="{ color: '#fff' }">
-          慕课乐高
-        </div>
-      </a-layout-header>
-    </a-layout>
+  <div class="editor-container">
     <a-layout>
       <a-layout-sider width="300"
                       style="background: yellow">
@@ -41,26 +32,26 @@ export default defineComponent({});
 </script>
 
 <style scoped>
-.preview-container {
-  padding: 24px;
-  margin: 0;
-  min-height: 85vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  position: relative;
-}
-.preview-list {
-  padding: 0;
-  margin: 0;
-  min-width: 375px;
-  min-height: 200px;
-  border: 1px solid #efefef;
-  background: #fff;
-  overflow-x: hidden;
-  overflow-y: auto;
-  position: fixed;
-  margin-top: 50px;
-  max-height: 80vh;
-}
+  .editor-container .preview-container {
+    padding: 24px;
+    margin: 0;
+    min-height: 85vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+  .editor-container .preview-list {
+    padding: 0;
+    margin: 0;
+    min-width: 375px;
+    min-height: 200px;
+    border: 1px solid #efefef;
+    background: #fff;
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: fixed;
+    margin-top: 50px;
+    max-height: 80vh;
+  }
 </style>
