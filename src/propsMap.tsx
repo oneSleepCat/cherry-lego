@@ -86,4 +86,8 @@ export const mapPropsToForms: PropsToForms = {
       ...fontFamilyOptios
     ],
   },
+  color: {
+    component: 'color-picker',
+    text: '字体颜色',
+  }
 };

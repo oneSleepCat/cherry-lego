@@ -26,7 +26,7 @@ export const testComponents: ComponentData[] = [
 		props: {
 			text: 'hellow',
 			fontSize: '10px',
-			color: 'red',
+			color: '#000000',
 			lineHeight: '1',
 			textAlign: 'left',
 			fontFamily: '',
