@@ -1,6 +1,6 @@
 import { computed } from 'vue';
 import { pick } from 'lodash-es';
-import { TextComponentProps } from '@/defaultProp';
+import { TextComponentProps } from '@/defaultProps';
 
 const useComponentCommon = (
 	props: Readonly<Partial<TextComponentProps>>,

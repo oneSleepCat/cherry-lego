@@ -1,5 +1,5 @@
 import { VNode } from 'vue';
-import { TextComponentProps } from '@/defaultProp';
+import { TextComponentProps } from '@/defaultProps';
 
 export interface PropToForm {
   component: string; // 对应的组件名

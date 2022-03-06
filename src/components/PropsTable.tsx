@@ -3,7 +3,7 @@ import { defineComponent, computed, PropType, VNode } from 'vue';
 import { reduce } from 'lodash-es';
 import { Input, InputNumber, Slider, Radio, Select } from 'ant-design-vue'
 import { mapPropsToForms } from '../propsMap';
-import { TextComponentProps } from '@/defaultProp';
+import { TextComponentProps } from '@/defaultProps';
 
 const mapToComponent = {
   'a-textarea': Input.TextArea,

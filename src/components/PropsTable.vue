@@ -28,7 +28,7 @@
 import { defineComponent, computed, PropType, VNode } from 'vue';
 import { reduce } from 'lodash-es';
 import { mapPropsToForms } from '../propsMap';
-import { TextComponentProps } from '@/defaultProp';
+import { TextComponentProps } from '@/defaultProps';
 import RenderVnode from '@/components/RenderVnode';
 import ColorPicker from '@/components/ColorPicker.vue';
 
