@@ -3,7 +3,7 @@
     <a-layout :style="{ background: '#fff' }">
       <a-layout-header class="header">
         <div class="page-title">
-          <router-link to="/">慕课乐高</router-link>
+          <router-link to="/">乐高</router-link>
         </div>
         <user-profile :user="user" />
       </a-layout-header>
